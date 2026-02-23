@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "ESE",
+    " E "
+  ],
+  "key": {
+    "E": { "item": "palladium:vibranium_ingot" },
+    "S": { "item": "palladium:vibranium_flux_capacitor" }
+  },
+  "result": {
+    "item": "omni:suntrici_core"
+  }
+}

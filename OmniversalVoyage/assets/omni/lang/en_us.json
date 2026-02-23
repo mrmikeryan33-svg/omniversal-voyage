@@ -1,0 +1,10 @@
+{
+    "pack.omni.name": "omniversal voyage",
+    "item.omni.knife_of_envy.description": "hold the knife_of_envy in your main hand, to use",
+    "item.omni.detonator.description": "a detonator used to trigger the explosion of a bomb",
+    "item.omni.yangian.description": "the yangian, a chestplate that allows you to harness the power of the sun, granting you increased strength and fire resistance",
+    "item.omni.electro_strike_helmet": "electro strike helmet",
+    "item.omni.electro_strike_helmet.description": "the electro strike helmet, a helmet that allows you to harness the power of electricity, granting you increased speed and flight",
+    "itemgroup.omni.omniversal_voyage_tab": "omniversal voyage",
+    "itemgroup.omni.omniversal_voyage_tab.description": "a tab for all the items in the omniversal voyage addon"
+}

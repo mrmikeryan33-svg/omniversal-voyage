@@ -1,0 +1,43 @@
+{
+    "name": "jackion",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/white_wool.png",
+    "icon": "minecraft:wither_skeleton_skull",
+    "gui_display_type": "tree",
+    "abilities": {
+        
+            "type": "palladium:energy_blast",
+            "icon": "minecraft:blaze_rod",
+            "title": "decaying_stare",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": [0, 0],
+            "description": "a beam of decaying energy that deals damage and has a chance to apply wither effects.",
+            "origin": "eyes",
+            "color": "#A70E67",
+            "damage": 2,
+            "max_distance": 15,
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:held",
+                        "cooldown": 150,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false
+                    }
+                ],
+                "unlocking": []
+            }
+                 }
+             }
+                
+        
+                
+            
+        
+          
+       
+
+    

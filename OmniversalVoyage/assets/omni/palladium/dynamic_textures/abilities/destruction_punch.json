@@ -1,0 +1,22 @@
+{
+    "name": "Destruction Punch",
+    "type": "melee",
+    "cooldown": 20,
+    "damage": 10,
+    "knockback": 2.5,
+    "effects": {
+        "explosion": {
+            "enabled": true,
+            "radius": 5.0,
+            "power": 3.0,
+            "fire": true
+        },
+        "particles": {
+            "type": "explosion",
+            "count": 20
+        },
+        "sound": "entity.generic.explode"
+    },
+    "animation": "punch",
+    "range": 5.0
+}

@@ -1,0 +1,15 @@
+{
+  "type": "palladium:default",
+  "max_stack_size": 1,
+  "creative_tab": "omni:omniversal_voyage_tab",
+  "rarity": "rare",
+  "is_fire_resistant": false,
+  "tooltip": [
+    "knife of envy, a weapon that allows you to steal the powers of others",
+    {
+      "translate": "item.omni.knife_of_envy.description",
+      "color": "#08DAFF",
+      "underlined": false
+    }
+  ]
+}

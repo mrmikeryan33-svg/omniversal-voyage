@@ -1,0 +1,6 @@
+ {
+  "parent": "minecraft:item/netherite_helmet",
+  "textures": {
+    "layer0": "omni:item/electro_strike_helmet"
+  }
+}

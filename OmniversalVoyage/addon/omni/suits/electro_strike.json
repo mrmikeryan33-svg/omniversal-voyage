@@ -1,0 +1,33 @@
+{
+  "tooltip": [
+    "Cool Electro Armor"
+  ],
+  "armor_material": "minecraft:leather",
+  "creative_mode_tab": "omni:omniversal_voyage_tab",
+  "chest": {
+    "item_name": "electro_strike_chestplate",
+    "tooltip": [
+      "Chestplate"
+    ]
+  },
+  "legs": {
+    "item_name": "electro_strike_leggings",
+    "tooltip": [
+      "Leggings"
+    ]
+  },
+  "feet": {
+        "item_name": "electro_strike_boots",
+        "tooltip": [
+      "Boots"
+    ]
+  },
+  "head": {
+    "item_name": "electro_strike_helmet",
+    "openable": true,
+    "opening_time": 6,
+    "tooltip": [
+      "Helmet"
+    ]
+  }
+}

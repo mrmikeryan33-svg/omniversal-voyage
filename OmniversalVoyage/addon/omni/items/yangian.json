@@ -1,0 +1,13 @@
+{
+    "type": "palladium:armor",
+    "slot": "chest",
+    "creative_tab": "omni:omniversal_voyage_tab",
+    "rarity": "rare",
+    "armor_material": "minecraft:diamond",
+    "armor_renderer": "omni:item_renderer",
+    "openable": false,
+    "opening_time": 10,
+    "opened_sound": "minecraft:item.armor.equip_leather",
+    "closed_sound": "minecraft:item.armor.equip_leather",
+    "opening_toggle_sound": "minecraft:item.armor.equip_leather"
+}

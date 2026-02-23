@@ -1,0 +1,71 @@
+{
+  "name": "yangian",
+  "persistent_data": true,
+  "background": "minecraft:textures/block/black_wool.png",
+  "icon": "omni:textures/icons/yangian.png",
+  "gui_display_type": "tree",
+
+  "abilities": {
+  
+
+  "destruction_beam": {
+    "type": "palladium:energy_beam",
+    "icon": "omni:textures/icons/destruction_beam.png",
+    "title": "destruction_beam",
+    "bar_color": "purple",
+    "hidden": false,
+    "hidden_in_bar": false,
+    "list_index": 4,
+    "gui_position": [0, 2],
+    "description": "shoots a beam of destruction energy from your hands, destroying blocks and damaging entities in its path",
+    "energy_beam": "omni:destruction_beam",
+    "damage_type": "null",
+    "damage": 5,
+    "max_distance": 30,
+    "speed": 0.8,
+    "set_on_fire_seconds": 0,
+    "cause_fire": false,
+    "smelt_blocks": false,
+    "commands_on_block_hit": [
+      "summon minecraft:area_effect_cloud ~ ~ ~ {Duration:1,Particle:\"explosion\"}"
+    ],
+    "commands_on_entity_hit": [],
+    "conditions": {
+      "enabling": [
+        {
+          "type": "palladium:held",
+          "cooldown": 100,
+          "key_type": "key_bind",
+          "needs_empty_hand": true
+        }
+      ],
+      "unlocking": []
+    }
+  
+    },
+     "skin_change": {
+        "type": "palladium:skin_change",
+    "icon": "minecraft:blaze_rod",
+    "title": "null",
+    "bar_color": "light_gray",
+    "hidden": true,
+    "hidden_in_bar": true,
+    "list_index": -1,
+    "gui_position": "null",
+    "description": "null",
+    "texture": "minecraft:textures/skins/yangian.png",
+    "model_type": "keep",
+    "priority": 50
+  
+    
+    
+        }
+        
+
+}
+}
+
+
+
+       
+

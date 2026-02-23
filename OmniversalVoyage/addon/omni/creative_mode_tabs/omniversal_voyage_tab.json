@@ -1,0 +1,13 @@
+{
+  "icon": "omni:textures/icons/omniversal_voyage.png",
+  "items": [
+    "omni:electro_strike_chestplate",
+    "omni:electro_strike_leggings",
+    "omni:electro_strike_boots",
+    "omni:electro_strike_helmet",
+    "omni:knife_of_envy",
+    "omni:detonator",
+    "omni:suntrici_core",
+    "omni:yangian_chestplate"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "id": "omni",
+        "pack_format": 15,
+        "description": "adds universa; breaking powers",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
+}

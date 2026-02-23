@@ -1,0 +1,198 @@
+{
+    "name": "electro strike",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/cyan_wool.png",
+    "icon": "omni:textures/icons/electro_strike.png",
+    "gui_display_type": "tree",
+    "abilities": {
+    "electro_laser": {
+            "type": "palladium:energy_beam",
+            "icon": "omni:textures/icons/energy_beam.png",
+            "title": "energy_taser",
+            "bar_color": "cyan",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": [0, 0],
+            "description": "shoots a beam of lightning from your hands",
+            "energy_beam": "omni:energy_taser",
+            "damage_type": "null",
+            "damage": 5,
+            "max_distance": 15,
+            "speed": 0.8,
+            "set_on_fire_seconds": 2,
+            "cause_fire": true,
+            "smelt_blocks": true,
+            "commands_on_block_hit": [
+                "summon lightning_bolt ~ ~ ~"
+            ],
+            "commands_on_entity_hit": [
+                "execute positioned ~ ~ ~ run effect give @e[limit=1,distance=..2] minecraft:glowing 2 0 true"
+            ],
+            "conditions": {
+                "enabling": [
+                                        {
+                                            "type": "palladium:held",
+                                            "cooldown": 150,
+                                            "key_type": "key_bind",
+                                            "needs_empty_hand": true
+                                        }
+                ],
+                "unlocking": []
+                
+            
+        }, 
+        "dual_energy_burst": {
+            "type": "palladium:energy_beam",
+            "icon": "omni:textures/icons/dual_energy_burst.png",
+            "title": "dual electro burst",
+            "bar_color": "cyan",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": [0, 1],
+            "description": "shoots 2 energyg beams out of your hands",
+            "energy_beam": "omni:dual_energy_burst",
+            "damage_type": "null",
+            "damage": 6,
+            "max_distance": 15,
+            "speed": 0.8,
+            "set_on_fire_seconds": 0,
+            "cause_fire": false,
+            "smelt_blocks": false,
+            "commands_on_block_hit": [],
+            "commands_on_entity_hit": [
+                "execute positioned ~ ~ ~ run effect give @e[limit=1,distance=..2] minecraft:glowing 2 0 true"
+            ],
+            "conditions": {
+                "enabling": [
+                                        {
+                                            "type": "palladium:held",
+                                            "cooldown": 60,
+                                            "key_type": "key_bind",
+                                            "needs_empty_hand": true
+                                        }
+                ],
+                "unlocking": []
+            
+        },
+        "static_pulse": {
+            "type": "palladium:projectile",
+            "icon": "omni:textures/icons/destruction_punch.png",
+            "title": "static pulse",
+            "bar_color": "light_gray",
+            "hidden": false,
+                "hidden_in_bar": false,
+                "list_index": -1,
+                "gui_position": [0, 2],
+                "description": "launches a slow moving projectile that creates a large explosion on impact",
+                "entity_type": "palladium:custom_projectile",
+                "entity_data": {
+                    "damage": 5,
+                    "gravity": 5,
+                    "size": 0.5,
+                    "lifetime": 1200,
+                    "dieonentityhit": false,
+                    "dieonblockhit": false,
+                    "explosionradius": 5,
+                    "explosioncausesfire": true,
+                    "appearances": {
+                         
+                            "type": "palladium:particles",
+                            "particle": "minecraft:explosion",
+                            "sound": "minecraft:entity.generic.explode",
+                            "power": 5.0,
+                            "break_blocks": true,
+                            "damage_entities": true,
+                            "destroy_items": true
+                    
+                        }
+                },
+                "inaccuracy": 0,
+                "velocity": 1.5,
+                "swinging_arm": "main_arm",
+                "damage_from_player": false,
+                "ignore_player_movement": false,
+                "conditions": {
+                    "enabling": [
+                        {
+                            "type": "palladium:action",
+                            "cooldown": 20,
+                            "key_type": "right_click",
+                            "needs_empty_hand": false,
+                            "allow_scrolling_when_crouching": true
+                        }
+                    ],
+                    "unlocking": [
+                        
+                    ]
+                }
+            },
+        "eyes_render_layer": {
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "gives you electro eyes",
+            "render_layer": "omni:electro_eyes",
+            "conditions": {
+                "enabling": [
+                                        {
+                                         "type": "palladium:ability_enabled",
+                                         "power": "null",
+                                         "ability": "dual_energy_burst"
+                                         }                   
+                ],
+                "unlocking": []
+            }
+        },
+               
+        "flight_trail": {
+            "type": "palladium:trail",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "trail": "omni:electro_strike_flight",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Flight"
+                    }
+                ],
+                "unlocking": []
+} 
+}
+        }
+    }
+}
+}
+        
+    
+        
+    
+
+
+                                                    
+                                                
+
+        
+                
+            
+                
+            
+        
+    
+
+    
+     
+ 
+ 
+
+
+
+

@@ -1,0 +1,159 @@
+{
+    "name": "lucious_strike",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/magma_block.png",
+    "icon": "omni:textures/icons/luciuos_strike.png",
+    "gui_display_type": "tree",
+    "abilities": {
+        "name_change": {
+            "type": "palladium:name_change",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "name": {
+                "text": "lucious strike"
+            },
+            "conditions": {
+                "enabling": [],
+                "unlocking": []
+            }
+        },
+        "solar_beam": {
+            "type": "palladium:energy_beam",
+            "icon": "omni:textures/icons/solar_beam.png",
+            "title": "solar_beam",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": [0, 0],
+            "description": "shoot out a powerful beam of solar energy from your hands",
+            "energy_beam": "omni:solar_beam",
+            "damage_type": "null",
+            "damage": 10,
+            "max_distance": 15,
+            "speed": 0.8,
+            "set_on_fire_seconds": 3,
+            "cause_fire": true,
+            "smelt_blocks": true,
+            "commands_on_block_hit": [],
+            "commands_on_entity_hit": [
+                "execute positioned ~ ~ ~ run effect give @e[limit=1,distance=..2] minecraft:glowing 2 0 true"
+            ],
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:held",
+                        "cooldown": 150,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": true
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+        "size_up_and_down": {
+            "type": "palladium:size",
+            "icon": "omni:textures/icons/size_up_an_down.png",
+            "title": "size_up_and_down",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": [0, 1],
+            "description": "grow and decrease your size",
+            "scale": 1.5,
+            "conditions": {
+                "enabling": [ 
+                    {
+                        "type": "palladium:day"
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+            "eyes_render_layer": {
+                "type": "palladium:render_layer",
+                "icon": "minecraft:blaze_rod",
+                "title": "null",
+                "bar_color": "light_gray",
+                "hidden": true,
+                "hidden_in_bar": true,
+                "list_index": -1,
+                "gui_position": "null",
+                "description": "gives you strength eyes",
+                "render_layer": "omni:strength_eyes",
+                "conditions": {
+                    "enabling": [
+                        {
+                            "type": "palladium:ability_enabled",
+                            "power": "null",
+                            "ability": "solar_beam"
+                        }
+                    ],
+                    "unlocking": []
+                }
+            }
+        },
+        "dual_solar_beam": {
+                "type": "palladium:energy_beam",
+                "icon": "omni:textures/icons/dual_solar_beam.png",
+                "title": "dual_solar_beam",
+                "bar_color": "green",
+                "hidden": false,
+                "hidden_in_bar": false,
+                "list_index": 2,
+                "gui_position": [0, 2],
+                "description": "shoots a powerful beam of solar energy from both hands",
+                "energy_beam": "omni:dual_solar_beam",
+                "damage_type": "null",
+                "damage": 10,
+                "max_distance": 25,
+                "speed": 0.8,
+                "set_on_fire_seconds": 3,
+                "cause_fire": true,
+                "smelt_blocks": false,
+                "commands_on_block_hit": [],
+                "commands_on_entity_hit": [],
+                "conditions": {
+                    "enabling": [
+                        {
+                            "type": "palladium:held",
+                            "cooldown": 150,
+                            "key_type": "key_bind",
+                            "needs_empty_hand": true
+                        }
+                    ],
+                    "unlocking": []
+                },
+                 "Flight": {
+            "type": "palladium:attribute_modifier",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "attribute": "palladium:flight_speed",
+            "list_index": 0,
+            "amount": 1,
+            "uuid": "a3d47401-8ea0-4dbd-ba0a-e4aaf8c73d65"
+        }
+        
+            }
+                }
+            
+
+    
+           
+    
+           
+    
+
+
+
+    
+
+
+  

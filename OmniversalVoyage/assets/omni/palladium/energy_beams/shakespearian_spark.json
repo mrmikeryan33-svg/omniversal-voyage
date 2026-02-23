@@ -1,0 +1,28 @@
+[
+    {
+        "type": "palladium:lightning",
+        "body_part": "head",
+        "segments": 10,
+        "frequency": 2,
+        "spread": 5,
+        "glow_color": "#060AE7",
+        "core_color": "#700CE1",
+        "rainbow": false,
+        "glow_opacity": 1,
+        "core_opacity": 1,
+        "bloom": 1,
+        "size": 2,
+        "normal_transparency": false,
+        "rotation": 25,
+        "rotation_speed": 2,
+        "visibility": {
+            "first_person": true,
+            "third_person": true
+        },
+        "offset": [
+             0,
+             1,
+             0
+        ]
+    }
+]

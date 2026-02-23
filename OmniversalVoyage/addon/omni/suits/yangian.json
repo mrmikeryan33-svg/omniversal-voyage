@@ -1,0 +1,33 @@
+{
+  "tooltip": [
+    "Cool Yangian Armor"
+  ],
+  "armor_material": "minecraft:leather",
+  "creative_mode_tab": "omni:omniversal_voyage_tab",
+  "chest": {
+    "item_name": "yangian_chestplate",
+    "tooltip": [
+      "Chestplate"
+    ]
+  },
+  "legs": {
+    "item_name": "yangian_leggings",
+    "tooltip": [
+      "Leggings"
+    ]
+  },
+  "feet": {
+        "item_name": "yangian_boots",
+        "tooltip": [
+      "Boots"
+    ]
+  },
+  "head": {
+    "item_name": "yangian_helmet",
+    "openable": true,
+    "opening_time": 6,
+    "tooltip": [
+      "Helmet"
+    ]
+  }
+}

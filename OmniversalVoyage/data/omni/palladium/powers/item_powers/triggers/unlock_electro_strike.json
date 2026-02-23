@@ -1,0 +1,10 @@
+{
+  "trigger": "omni:unlock_electro_strike",
+  "actions": [
+    {
+      "action": "palladium:unlock_power",
+      "power": "omni:electro_strike",
+      "message": "You have unlocked the Electro Strike!"
+    }
+  ]
+}

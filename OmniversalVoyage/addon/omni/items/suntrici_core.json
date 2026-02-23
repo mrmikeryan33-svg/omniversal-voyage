@@ -1,0 +1,15 @@
+{
+    "type": "palladium:default_item",
+    "max_stack_size": 1,
+    "creative_tab": "omni:omniversal_voyage_tab",
+    "rarity": "rare",
+    "is_fire_resistant": false,
+    "tooltip": [
+        "a core that contains the power of the sun, used to create powerful items",
+        {
+            "translate": "item.omni.suntrici_core.description",
+            "color": "#08DAFF",
+            "underlined": false
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "authors": [
+        "bigmanaaron007"
+    ],
+    "environment": "*",
+    "id": "omni",
+    "version": "1.0.0",
+    "name": "omniversal voyage",
+    "description": "adds universa; breaking powers",
+    "icon": "omni:textures/icons/omniversal_voyage.png",
+    "license": "All rights reserved"
+}

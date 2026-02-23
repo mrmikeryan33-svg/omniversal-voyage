@@ -1,0 +1,43 @@
+{
+    "name": "captain_grim",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/white_wool.png",
+    "icon": "omniversalvoyage:textures/icons/captain_grim.png",
+    "gui_display_type": "tree",
+    "abilities": 
+        
+                 {
+                     "type": "palladium:energy_beam",
+                     "icon": "omni:textures/icons/shakespearian_spark.png",
+                     "title": "shakespearian_spark",
+                     "bar_color": "light_gray",
+                     "hidden": false,
+                     "hidden_in_bar": false,
+                     "list_index": 0,
+                     "gui_position": [0, 1],
+                     "description": "shoots a beam of vocal energy out of your mouth, dealing damage to enemies in its path. The beam can also have additional effects, such as setting targets on fire or smelting blocks. However, using this ability can be taxing on your vocal cords, and overuse may lead to temporary loss of speech or other negative consequences.",
+                     "energy_beam": "omni:shakespearian_spark",
+                     "damage_type": "null",
+                     "damage": 10,
+                     "max_distance": 20,
+                     "speed": 0.8,
+                     "set_on_fire_seconds": 0,
+                     "cause_fire": false,
+                     "smelt_blocks": false,
+                     "commands_on_block_hit": [],
+                     "commands_on_entity_hit": [],
+                                 "conditions": {
+                                     "enabling": {
+                                         "type": "palladium:held",
+                                         "cooldown": 150,
+                                         "key_type": "key_bind",
+                                         "unlock_level": 5
+                                     }
+                                 }
+                             }
+                         
+                     }
+                
+            
+            
+    

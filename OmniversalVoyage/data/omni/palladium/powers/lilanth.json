@@ -1,0 +1,44 @@
+{
+    "name": "lilanth",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/white_wool.png",
+    "icon": "minecraft:wither_skeleton_skull",
+    "gui_display_type": "tree",
+    "abilities": {
+        
+            "type": "palladium:energy_beam",
+            "icon": "minecraft:blaze_rod",
+            "title": "nadder_beam",
+            "bar_color": "black",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": [0, 0],
+            "description": "shoot out a powerful beam of energy from your hands",
+            "energy_beam": "omni:nadder_beam",
+            "damage_type": "null",
+            "damage": 10,
+            "max_distance": 15,
+            "speed": 0.8,
+            "set_on_fire_seconds": 2,
+            "cause_fire": true,
+            "smelt_blocks": false,
+            "commands_on_block_hit": [],
+            "commands_on_entity_hit": [],
+            "conditions": {
+                "enabling": [
+                                        {
+                                            "type": "palladium:held",
+                                            "cooldown": 150,
+                                            "key_type": "key_bind",
+                                            "needs_empty_hand": false
+                                        }
+                ],
+                "unlocking": []
+            }
+        }
+         }
+ 
+        
+
+    

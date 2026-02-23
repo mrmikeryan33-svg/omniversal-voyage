@@ -1,0 +1,15 @@
+{
+    "type": "palladium:default_item",
+    "max_stack_size": 1,
+    "creative_tab": "omni:omniversal_voyage_tab",
+    "rarity": "rare",
+    "is_fire_resistant": false,
+    "tooltip": [
+        "a detonator used to trigger the explosion of a bomb",
+        {
+            "translate": "item.omni.detonator.description",
+            "color": "#08DAFF",
+            "underlined": false
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "function": "execute",
+    "if": {
+      "score": {
+        "name": "player",
+        "objective": "hero"
+      },
+      "value": 0
+    },
+    "then": [
+      {
+        "function": "yourmodid:set_hero_envy"
+      }
+    ]
+  }
+}

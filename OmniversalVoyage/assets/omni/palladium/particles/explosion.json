@@ -1,0 +1,9 @@
+{"minecraft:explosion": {
+    "particle": "omni:palladium:explosion_particle",
+    "sound": "minecraft:entity.generic.explode",
+    "power": 5.0,
+    "break_blocks": true,
+    "damage_entities": true,
+    "destroy_items": true
+  }
+}

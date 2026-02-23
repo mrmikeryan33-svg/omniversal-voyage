@@ -1,0 +1,9 @@
+{
+  "type": "palladium:armor",
+  "slot": "head",
+  "armor_material": "minecraft:diamond",
+  "creative_mode_tab": [
+    "minecraft:combat"
+  ]
+    }
+  

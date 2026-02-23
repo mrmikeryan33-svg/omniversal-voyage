@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "default": "omni:textures/models/armor/electro_strike_leggings"
+  },
+  "model_layers": "palladium:humanoid#suit"
+}

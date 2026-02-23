@@ -1,0 +1,83 @@
+{
+    "name": "objexsis",
+    "persistent_data": true,
+    "background": "omni:textures/backgrounds/objexsis.png",
+    "icon": "omni:textures/icons/objexsis.png",
+    "gui_display_type": "tree",
+    "abilities": {
+        "origin_pulse": {
+            "type": "palladium:energy_beam",
+            "icon": "omni:textures/icons/origin_pulse.png",
+            "title": "origin pulse",
+            "bar_color": "yellow",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 0,
+            "gui_position": [0, 0],
+            "description": "releases a powerful pulse of energy from your body, damaging and knocking back nearby enemies. The pulse can also have additional effects, such as stunning targets or destroying blocks in its radius. However, using this ability can be draining on your energy reserves, and overuse may lead to temporary exhaustion or other negative consequences.",
+            "energy_beam": "omni:origin_pulse",
+            "damage_type": "null",
+            "damage": 10,
+            "max_distance": 30,
+            "speed": 0.8,
+            "set_on_fire_seconds": 0,
+            "cause_fire": false,
+            "smelt_blocks": false,
+            "commands_on_block_hit": [],
+            "commands_on_entity_hit": [],
+            
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:held",
+                        "cooldown": 150,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": true
+                    }
+                ],
+                "unlocking": []
+            }
+        } ,
+        
+        
+         "flight_speed": {
+            "type": "palladium:attribute_modifier",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "attribute": "palladium:flight_speed",
+            "list_index": 0,
+            "amount": 1,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1"
+        }, 
+          "flight_trail": {
+            "type": "palladium:trail",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "trail": "omni:objexsis_flight",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Flight"
+                    }
+                ],
+                "unlocking": []
+            }
+       
+              
+          }
+        }
+    }
+    
+    
+
+
+
+
+    
+
+
+
+        
+

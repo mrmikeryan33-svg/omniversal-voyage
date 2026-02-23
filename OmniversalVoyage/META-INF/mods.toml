@@ -1,0 +1,21 @@
+modLoader="lowcodefml"
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="omni"
+version="1.0.0"
+logoFile = "omniversal_voyage.png"
+logoBlur = false
+displayName="omniversal voyage"
+description='''
+adds universal; breaking powers
+'''
+
+[[dependencies.omni]]
+modId = "palladium"
+mandatory = true
+versionRange = "[4.4.1,)"
+ordering = "NONE"
+side = "BOTH"
